@@ -1,6 +1,7 @@
 # docker
-Docker Notes
+<h1>Docker Notes</h1>
 
+<pre>
 docker swarm init	#init swarm
 
 #Create the virtual machines
@@ -42,3 +43,4 @@ docker-machine start myvm2
 [isaac@localhost DockerLab]$ docker-machine ls
 [isaac@localhost DockerLab]$ docker-machine stop myvm1
 [isaac@localhost DockerLab]$ docker-machine stop myvm2
+</pre>
