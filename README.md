@@ -1,6 +1,10 @@
 # docker
 <h1>Docker Notes</h1>
 
+Start docker:
+
+sudo systemctl start docker
+
 <pre>
 docker swarm init	#init swarm
 
