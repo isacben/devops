@@ -37,6 +37,11 @@ docker container start <container ID>
 docker container exec <container ID> ls
 </pre>
 
+Build an image:
+
+<pre>docker image build -t hello:v0.1 .</pre>
+
+
 <h2>Working With Swarms</h2>
 
 <pre>
