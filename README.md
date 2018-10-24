@@ -9,6 +9,10 @@ Run a container which exits after the execution of the command:
 
 <pre>docker container run alpine echo "hello from alpine"</pre>
 
+Run a container and stay inside the container's command line:
+
+<pre>docker container run -it alpine /bin/sh</pre>
+
 <pre>
 docker swarm init	#init swarm
 
