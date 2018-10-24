@@ -3,8 +3,9 @@
 
 <h2>Resources</h2>
 
-- https://training.play-with-docker.com/
+- docker classrooms: https://training.play-with-docker.com/
 - seccomp: https://training.play-with-docker.com/security-seccomp/
+- networking:https://training.play-with-docker.com/docker-networking-hol/
 
 
 <h2>Basic Commands</h2>
