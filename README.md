@@ -1,6 +1,10 @@
 # docker
 <h1>Docker Notes</h1>
 
+<h2>Resources</h2>
+
+<li>https://training.play-with-docker.com/</li>
+
 Start docker:
 
 <pre>sudo systemctl start docker</pre>
