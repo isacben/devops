@@ -6,6 +6,7 @@
 - docker classrooms: https://training.play-with-docker.com/
 - seccomp: https://training.play-with-docker.com/security-seccomp/
 - networking:https://training.play-with-docker.com/docker-networking-hol/
+- pure docker orchestration: https://training.play-with-docker.com/orchestration-hol/
 
 
 <h2>Basic Commands</h2>
