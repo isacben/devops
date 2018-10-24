@@ -3,7 +3,11 @@
 
 Start docker:
 
-sudo systemctl start docker
+<pre>sudo systemctl start docker</pre>
+
+Run a container which exits after the execution of the command:
+
+<pre>docker container run alpine echo "hello from alpine"</pre>
 
 <pre>
 docker swarm init	#init swarm
