@@ -4,6 +4,7 @@
 <h2>Resources</h2>
 
 - https://training.play-with-docker.com/
+- seccomp: https://training.play-with-docker.com/security-seccomp/
 
 
 <h2>Basic Commands</h2>
