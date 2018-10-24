@@ -3,13 +3,14 @@
 
 <h2>Resources</h2>
 
-<li>https://training.play-with-docker.com/</li>
+- https://training.play-with-docker.com/
+
+
+<h2>Basic Commands</h2>
 
 Start docker:
 
 <pre>sudo systemctl start docker</pre>
-
-<h2>Basic Commands</h2>
 
 <pre>
 #list all the containers
