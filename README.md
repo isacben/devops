@@ -37,8 +37,11 @@ docker container start <container ID>
 docker container exec <container ID> ls
 </pre>
 
+<h2>Working With Swarms</h2>
+
 <pre>
-docker swarm init	#init swarm
+#init swarm
+docker swarm init
 
 #Create the virtual machines
 docker-machine create --driver virtualbox myvm1
@@ -71,12 +74,11 @@ docker-machine start myvm1
 docker-machine start myvm2
 
 #Shutdown the SWARM
-
-[isaac@localhost DockerLab]$ docker stack rm getstartedlab
-[isaac@localhost DockerLab]$ docker-machine ssh myvm2 "docker swarm leave"
-[isaac@localhost DockerLab]$ docker-machine ssh myvm1 "docker swarm leave --force"
-[isaac@localhost DockerLab]$ eval $(docker-machine env -u)
-[isaac@localhost DockerLab]$ docker-machine ls
-[isaac@localhost DockerLab]$ docker-machine stop myvm1
-[isaac@localhost DockerLab]$ docker-machine stop myvm2
+docker stack rm getstartedlab
+docker-machine ssh myvm2 "docker swarm leave"
+docker-machine ssh myvm1 "docker swarm leave --force"
+eval $(docker-machine env -u)
+docker-machine ls
+docker-machine stop myvm1
+docker-machine stop myvm2
 </pre>
