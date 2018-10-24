@@ -25,6 +25,18 @@ Run a container and stay inside the container's command line:
 
 <pre>docker container run -it alpine /bin/sh</pre>
 
+This starts a container and leaves it running to be able to execute commands:
+
+<pre>
+docker container run -it alpine /bin/ash
+
+#if we exited, you can restart the same container:
+docker container start <container ID>
+
+#and then execute commands:
+docker container exec <container ID> ls
+</pre>
+
 <pre>
 docker swarm init	#init swarm
 
