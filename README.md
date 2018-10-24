@@ -12,6 +12,8 @@ Start docker:
 
 <pre>sudo systemctl start docker</pre>
 
+List objects: 
+
 <pre>
 #list all the containers
 docker container ls -a
