@@ -5,6 +5,18 @@ Start docker:
 
 <pre>sudo systemctl start docker</pre>
 
+<h2>Basic Commands</h2>
+
+<pre>
+#list all the containers
+docker container ls -a
+
+#list all the images
+docker image ls -a
+</pre>
+
+<h2>Other Important Commands To Remember</h2>
+
 Run a container which exits after the execution of the command:
 
 <pre>docker container run alpine echo "hello from alpine"</pre>
