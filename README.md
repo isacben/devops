@@ -41,6 +41,9 @@ Build an image:
 
 <pre>docker image build -t hello:v0.1 .</pre>
 
+Get image layers:
+
+<pre>docker image inspect --format "{{ json .RootFS.Layers }}" alpine</pre>
 
 <h2>Working With Swarms</h2>
 
