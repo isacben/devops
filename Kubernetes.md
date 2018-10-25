@@ -32,6 +32,25 @@ Check the pods:
 
 <pre>kubectl get pod</pre>
 
+Get service url:
+
+<pre>
+minikube service hello-minikube --url
+http://192.168.99.100:32497
+</pre>
+
+Get its information:
+
+<pre>curl $(minikube service hello-minikube --url)</pre>
+
+Stop all:
+
+<pre>
+kubectl delete services hello-minikube
+kubectl delete deployment hello-minikube
+minikube stop
+</pre>
+
 <h2>kubectl adjustments</h2>
 
 To be able to run with current user (not root), you need to create an admin.conf file with permissions:
