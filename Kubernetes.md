@@ -15,3 +15,11 @@ Check minikube ip:
   minikube ip
   192.168.1.27
 </pre>
+
+<h2>kubectl adjustments</h2>
+
+<pre>
+sudo cp /etc/kubernetes/admin.conf $HOME/
+sudo chown $(id -u):$(id -g) $HOME/admin.conf
+export KUBECONFIG=$HOME/admin.conf
+</pre>
