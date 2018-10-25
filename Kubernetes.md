@@ -11,7 +11,7 @@ Start minikube on virtualbox:
 <pre>sudo /usr/local/bin/minikube start --vm-driver=virtualbox</pre>
 
 Check minikube ip:
-<code>
+<pre>
   minikube ip
   192.168.1.27
-</code>
+</pre>
