@@ -3,6 +3,7 @@
 References:
 
 - https://kubernetes.io/docs/setup/minikube/
+- Good tutorial: https://kubernetes.io/docs/tutorials/hello-minikube/#create-your-node-js-application
 
 <h2>Minikube</h2>
 
