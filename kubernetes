@@ -1,0 +1,7 @@
+<h1>Kubernetes Notes</h1>
+
+<h2>Minikube</h2>
+
+Start minikuke without vm:
+
+<pre>sudo /usr/local/bin/minikube start --vm-driver=none</pre>
