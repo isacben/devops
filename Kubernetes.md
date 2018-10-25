@@ -9,3 +9,9 @@ Start minikube without vm (not recommended):
 Start minikube on virtualbox:
 
 <pre>sudo /usr/local/bin/minikube start --vm-driver=virtualbox</pre>
+
+Check minikube ip:
+<code>
+  minikube ip
+  192.168.1.27
+</code>
