@@ -6,13 +6,13 @@ References:
 
 <h2>Minikube</h2>
 
-Start minikube without vm (not recommended):
+Start minikube without vm (not recommended, don't do):
 
 <pre>sudo /usr/local/bin/minikube start --vm-driver=none CHANGE_MINIKUBE_NONE_USER=true</pre>
 
 Start minikube on virtualbox:
 
-<pre>sudo /usr/local/bin/minikube start --vm-driver=virtualbox</pre>
+<pre>minikube start --vm-driver=virtualbox</pre>
 
 Check minikube ip:
 <pre>
