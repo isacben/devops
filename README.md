@@ -1,5 +1,4 @@
-# docker
-<h1>Docker Notes</h1>
+# Docker Notes
 
 <h2>Resources</h2>
 
