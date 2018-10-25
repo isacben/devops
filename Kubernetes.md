@@ -1,5 +1,9 @@
 <h1>Kubernetes Notes</h1>
 
+References:
+
+- https://kubernetes.io/docs/setup/minikube/
+
 <h2>Minikube</h2>
 
 Start minikube without vm (not recommended):
@@ -17,6 +21,8 @@ Check minikube ip:
 </pre>
 
 <h2>kubectl adjustments</h2>
+
+To be able to run with current user (not root), you need to create an admin.conf file with permissions:
 
 <pre>
 sudo cp /etc/kubernetes/admin.conf $HOME/
