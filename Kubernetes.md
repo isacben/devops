@@ -39,7 +39,7 @@ Get pod's environment variables:
 
 Login into pod:
 
-<pre>kubectl exec -ti <pod-name> bash</pre>
+<pre>kubectl exec -ti \<pod-name\> bash</pre>
 
 Get service url:
 
