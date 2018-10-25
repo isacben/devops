@@ -35,11 +35,11 @@ Check the pods:
 
 Get pod's environment variables:
 
-<pre>kubectl exec kubernetes-bootcamp-5c69669756-6hvxw env</pre>
+<pre>kubectl exec $POD_NAME env</pre>
 
 Login into pod:
 
-<pre>kubectl exec -ti \<pod-name\> bash</pre>
+<pre>kubectl exec -ti $POD_NAME bash</pre>
 
 Get service url:
 
